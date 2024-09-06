@@ -12,8 +12,8 @@ Esto es un breve análsis de cómo le ha ido a Chile en la Olimpiada Internacion
 
 ![promedio_rank_rel_por_año](graficos/promedio_rank_rel_por_año.png)
 ![promedio_score_abs_por_año](graficos/promedio_score_abs_por_año.png)
-![puntajes_por_año](graficos/puntajes_por_año.png)
 ![puntajes_por_participante_por_año](graficos/puntajes_por_participante_por_año.png)
+![puntajes_por_año](graficos/puntajes_por_año.png)
 ![rank_rel_por_año](graficos/rank_rel_por_año.png)
 
 ## Conclusiones
