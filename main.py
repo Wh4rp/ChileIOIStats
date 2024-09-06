@@ -35,7 +35,7 @@ def main():
     # Crear la gráfica de la evolución del Score Abs. promedio por año
     plt.figure(figsize=(10, 6))
     plt.plot(promedio_score_abs_por_año.index, promedio_score_abs_por_año.values, marker='o', linestyle='-')
-    plt.title('Evolución del Puntaje Absoluto Promedio del Equipo Chileno por Año (Desde 2012)')
+    plt.title('Evolución del Puntaje Absoluto Promedio del Equipo Chileno por Año')
     plt.xlabel('Año')
     plt.ylabel('Puntaje Absoluto Promedio')
     plt.grid(True)
@@ -52,7 +52,7 @@ def main():
     for contestant in puntajes_por_participante_por_año.columns:
         plt.plot(puntajes_por_participante_por_año.index, puntajes_por_participante_por_año[contestant], marker='o', linestyle='-', label=contestant)
 
-    plt.title('Puntajes Absolutos de los Participantes del Equipo Chileno por Año (Desde 2012)')
+    plt.title('Puntajes Absolutos de los Participantes del Equipo Chileno por Año')
     plt.xlabel('Año')
     plt.ylabel('Puntaje Absoluto')
     plt.grid(True)
@@ -70,7 +70,7 @@ def main():
     plt.figure(figsize=(12, 7))
     plt.boxplot(puntajes_por_año, labels=puntajes_por_año.index, showmeans=True)
 
-    plt.title('Distribución de Puntajes Absolutos de los Cuatro Participantes del Equipo Chileno por Año (Desde 2012)')
+    plt.title('Distribución de Puntajes Absolutos de los Cuatro Participantes del Equipo Chileno por Año')
     plt.xlabel('Año')
     plt.ylabel('Puntaje Absoluto')
     plt.grid(True)
@@ -85,7 +85,7 @@ def main():
     plt.figure(figsize=(12, 7))
     plt.boxplot(rank_rel_por_año, labels=rank_rel_por_año.index, showmeans=True)
 
-    plt.title('Distribución de las Posiciones Relativas de los Cuatro Participantes del Equipo Chileno por Año (Desde 2012)')
+    plt.title('Distribución de las Posiciones Relativas de los Cuatro Participantes del Equipo Chileno por Año')
     plt.xlabel('Año')
     plt.ylabel('Posición Relativa (%)')
     plt.grid(True)
